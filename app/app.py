@@ -388,5 +388,9 @@ with gr.Blocks(theme="soft", css=CSS, fill_height=True) as demo:
     )
     close.click(fn=None, cancels=start_ta)
 
+def launch_app(inline=True):
+  demo.queue(api_open=False).launch(show_api=False, share=True, inline=inline)
+
+# Optional: still allow running directly from terminal
 if __name__ == "__main__":
-    demo.queue(api_open=False).launch(show_api=False, share=False)
+  launch_app(inline=False)
