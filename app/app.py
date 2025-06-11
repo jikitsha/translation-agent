@@ -163,7 +163,7 @@ def close_btn_hide(output_diff):
 
 TITLE = """
     <div style="display: inline-flex;">
-        <div style="margin-left: 6px; font-size:32px; color: #6366f1"><b>Translation Agent</b> WebUI</div>
+        <div style="margin-left: 6px; font-size:32px; color: #6366f1"><b>LexAnuvaadak</b> ..Beyond Words, Across Culture..</div>
     </div>
 """
 
