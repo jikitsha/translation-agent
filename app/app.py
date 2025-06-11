@@ -282,12 +282,12 @@ with gr.Blocks(theme="soft", css=CSS, fill_height=True) as demo:
                 )
                 target_lang = gr.Textbox(
                     label="Target Lang",
-                    value="Spanish",
+                    value="Hindi",
                     elem_classes="lang",
                 )
             switch_btn = gr.Button(value="🔄️")
             country = gr.Textbox(
-                label="Country", value="Argentina", max_lines=1
+                label="Country", value="India", max_lines=1
             )
             with gr.Accordion("Advanced Options", open=False):
                 max_tokens = gr.Slider(
